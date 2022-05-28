@@ -7,12 +7,9 @@
 <script>
 export default {
   name: "HomeView",
-  data() {
-    return {
-      selectItem: 3,
-      drawer: null,
-    };
-  },
 };
 </script>
+
+<style lang="scss" scoped>
+</style>
 
