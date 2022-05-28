@@ -1,11 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <div class="container"></div>
   </div>
 </template>
 
 <script>
 export default {
   name: "HomeView",
+  data() {
+    return {
+      selectItem: 3,
+      drawer: null,
+    };
+  },
 };
 </script>
+
